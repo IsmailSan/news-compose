@@ -1,0 +1,21 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+
+    <!-- Background Circle -->
+    <path
+        android:fillColor="#E8F5E9"
+        android:pathData="M50,10 C72,10 90,28 90,50 C90,72 72,90 50,90 C28,90 10,72 10,50 C10,28 28,10 50,10 Z" />
+
+    <!-- Bookmark / Mobile Card Base -->
+    <path
+        android:fillColor="#2E7D32"
+        android:pathData="M30,25 L70,25 C72.8,25 75,27.2 75,30 L75,70 C75,72.8 72.8,75 70,75 L30,75 C27.2,75 25,72.8 25,70 L25,30 C25,27.2 27.2,25 30,25 Z" />
+
+    <!-- Ribbon / Star / Bookmark shape -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M40,32 L60,32 L60,68 L50,58 L40,68 Z" />
+</vector>
